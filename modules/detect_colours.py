@@ -128,7 +128,7 @@ class DetectRed:
         cv2.imwrite("debug_mask.jpg", mask)
 
         # Shows the detected colour from the mask
-        res = cv2.bitwise_and(img, img, mask=mask)
+        # res = cv2.bitwise_and(img, img, mask=mask)
 
         # Annotate the colour detections
         # replace the '_' parameter with the appropiate variable
